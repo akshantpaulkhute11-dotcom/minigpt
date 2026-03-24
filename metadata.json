@@ -1,0 +1,5 @@
+{
+  "name": "MiniGPT",
+  "description": "A friendly and concise AI assistant that provides clear, simple answers in just a few sentences.",
+  "requestFramePermissions": ["microphone", "camera", "geolocation"]
+}

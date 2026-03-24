@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  .markdown-body pre {
+    @apply bg-zinc-100 p-4 rounded-xl my-4 overflow-x-auto border border-zinc-200;
+  }
+  .markdown-body code {
+    @apply font-mono text-zinc-800 bg-zinc-100 px-1 rounded;
+  }
+  .markdown-body p {
+    @apply mb-2 last:mb-0;
+  }
+  .markdown-body ul, .markdown-body ol {
+    @apply ml-4 mb-2;
+  }
+  .markdown-body li {
+    @apply list-disc;
+  }
+}
